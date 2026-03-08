@@ -1,0 +1,18 @@
+
+# core
+gymnasium==0.29.1
+box2d-py==2.3.8
+numpy>=1.24
+torch>=2.2
+protobuf<5
+
+
+# logging/plots
+matplotlib>=3.8
+rich>=13.7
+
+
+# yaml config
+pyyaml>=6.0
+
+

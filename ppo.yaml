@@ -1,0 +1,17 @@
+
+seed: 42
+gamma: 0.99
+lam: 0.95
+clip_eps: 0.2
+lr_actor: 3e-4
+lr_critic: 5e-4
+vf_coef: 0.5
+ent_coef: 0.01
+max_grad_norm: 0.5
+num_envs: 1
+rollout_len: 2048
+minibatch_size: 256
+update_epochs: 10
+total_steps: 200000
+device: auto
+critic: "nn" # ["nn", "bls"]
